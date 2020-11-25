@@ -1,0 +1,25 @@
+{
+	"compilerOptions": {
+		"target": "esnext",
+		"lib": ["dom", "ES2017"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noFallthroughCasesInSwitch": true,
+		"noEmit": true,
+		"noUnusedLocals": true,
+		"allowSyntheticDefaultImports": true,
+		"noUnusedParameters": true,
+        "module": "ESNext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "sourceMap": true,
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"experimentalDecorators": true,
+        "strictNullChecks": true
+	},
+	"include": ["./src/ts/index.ts", "**/*.js"],
+	"exclude": ["node_modules", "dist"]
+}
